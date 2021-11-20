@@ -1,4 +1,6 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+node scripts/generate-readme.js
+git add bookmarklets/**/README.md
 npx lint-staged

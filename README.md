@@ -4,7 +4,7 @@ A list of awesome bookmarklets, just Copy and Paste as Bookmarklet
 
 ## Bookmarklets
 
-- [Request Picture in Picture](./bookmarklets/request-picture-in-picture.js)
+- [Request Picture in Picture](./bookmarklets/request-picture-in-picture)
 
 **TODO:**
 
