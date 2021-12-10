@@ -31,6 +31,7 @@ javascript: void (function () {
 
 	if (playingVideo) {
 		console.log(`Found playing video`);
+		playingVideo.disablePictureInPicture = false;
 		playingVideo.requestPictureInPicture();
 	}
 })();
