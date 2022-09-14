@@ -1,14 +1,5 @@
 {
 	"semi": true,
 	"useTabs": true,
-	"tabWidth": 4,
-	"quoteProps": "consistent",
-	"overrides": [
-		{
-			"files": "*.md",
-			"options": {
-				"tabWidth": 2
-			}
-		}
-	]
+	"quoteProps": "consistent"
 }
