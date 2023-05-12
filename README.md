@@ -13,8 +13,7 @@ A list of awesome bookmarklets, just Copy and Paste as Bookmarklet
 > Converter: https://chriszarate.github.io/bookmarkleter/
 
 ```js
-javascript: (async (s) => {
-	"use strict";
+(async (s) => {	
 	// Was not used as search engine
 	if (s === globalThis.atob("JXM=")) s = undefined;
 

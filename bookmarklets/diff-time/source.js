@@ -1,5 +1,4 @@
 javascript: (async (s) => {
-	"use strict";
 	// Was not used as search engine
 	if (s === globalThis.atob("JXM=")) s = undefined;
 
@@ -13,6 +12,9 @@ javascript: (async (s) => {
 	// Use this to get input
 	if (!s) s = globalThis.prompt("hh:mm/hh:mm, hh:mm/hh:mm, ...");
 	if (!s) return;
+
+	// When copied from slack edited message
+	s = s.replace("(edited)", "");
 
 	let timeToDur = (t) => {
 		let [h, m] = t.split(":");
