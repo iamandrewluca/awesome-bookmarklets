@@ -10,6 +10,8 @@ A list of awesome bookmarklets, just Copy and Paste as Bookmarklet
 
 ### Starter template
 
+> Converter: https://chriszarate.github.io/bookmarkleter/
+
 ```js
 javascript: (async (s) => {
 	"use strict";
