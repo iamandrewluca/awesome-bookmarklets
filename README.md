@@ -4,8 +4,9 @@ A list of awesome bookmarklets, just Copy and Paste as Bookmarklet
 
 ## Bookmarklets
 
-- [Request Picture in Picture](./bookmarklets/request-picture-in-picture)
-- [Extract chat keyword from Zoom recording](./bookmarklets/zoom-extract-chat-keyword)
+- [Request Picture in Picture](./bookmarklets/request-picture-in-picture/)
+- [Extract chat keyword from Zoom recording](./bookmarklets/zoom-extract-chat-keyword/)
+- [Diff Time](./bookmarklets/diff-time/)
 
 **TODO:**
 
