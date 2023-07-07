@@ -13,7 +13,7 @@ javascript: (async (s) => {
 	if (!s) s = globalThis.prompt("hh:mm/hh:mm, hh:mm/hh:mm, ...");
 	if (!s) return;
 
-	// When copied from slack edited message
+	/* When copied from slack edited message */
 	s = s.replace("(edited)", "");
 
 	let timeToDur = (t) => {
