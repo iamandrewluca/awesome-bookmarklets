@@ -1,5 +1,5 @@
 javascript: (async (s) => {
-	// Was not used as search engine
+	/* Was not used as search engine */
 	if (s === globalThis.atob("JXM=")) s = undefined;
 
 	/**
@@ -9,7 +9,7 @@ javascript: (async (s) => {
 	 * Post: https://dev.to/iamandrewluca/bookmarklets-browser-search-engine-2m30
 	 */
 
-	// Use this to get input
+	/* Use this to get input */
 	if (!s) s = globalThis.prompt("hh:mm/hh:mm, hh:mm/hh:mm, ...");
 	if (!s) return;
 
