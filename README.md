@@ -14,7 +14,7 @@ A list of awesome bookmarklets, just Copy and Paste as Bookmarklet
 
 ```js
 (async (s) => {	
-	// Was not used as search engine
+	/* Was not used as search engine */
 	if (s === globalThis.atob("JXM=")) s = undefined;
 
 	/**
@@ -24,8 +24,8 @@ A list of awesome bookmarklets, just Copy and Paste as Bookmarklet
 	 * Post: https://dev.to/iamandrewluca/bookmarklets-browser-search-engine-2m30
 	 */
 
-	// Use this to get input
-	// if (!s) s = globalThis.prompt();
+	/* Use this to get input */
+	if (!s) s = globalThis.prompt();
 
 	/* Your code goes here */
 	globalThis.console.log(s);
